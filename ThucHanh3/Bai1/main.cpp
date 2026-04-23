@@ -27,6 +27,7 @@ int main()
     cTamGiac tg;
     tg.NhapTamGiac();
     cout << "\n--- THONG TIN TAM GIAC ---\n";
+    cout << "Tam giac duoc tao boi 3 dinh: ";
     tg.XuatTamGiac();
 
     cout << "Loai tam giac: " << tg.KiemTraLoai() << "\n";
